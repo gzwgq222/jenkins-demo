@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Jenkins Ci Test'
+      msg: 'Jenkins Ci Test， push will build'
     }
   }
 }
