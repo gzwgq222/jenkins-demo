@@ -1,6 +1,12 @@
 <template>
   <div class="hello">
+<<<<<<< HEAD
     <h2>{{ msg }}</h2>
+=======
+    <h1>{{ msg }}</h1>
+    <h1>Success</h1>
+    <h2>Essential Links</h2>
+>>>>>>> 216246f5b59a291c92159c9a02b4b8d1e9fb4bef
     <ul>
       <a
         target="_blank"
@@ -21,6 +27,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+<<<<<<< HEAD
       msg: 'Jenkins Ci Test， push event will build',
       mv: [
         {
@@ -84,6 +91,9 @@ export default {
           'src': 'https://pptv.com-h-pptv.com/20190305/15638_5a2d2eb9/index.m3u8'
         }
       ]
+=======
+      msg: 'push event will build'
+>>>>>>> 216246f5b59a291c92159c9a02b4b8d1e9fb4bef
     }
   }
 }
